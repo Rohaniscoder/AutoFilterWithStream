@@ -61,7 +61,7 @@
 • /id - 𝑔𝑒𝑡 𝑡𝑔 𝑖𝑑𝑠.
 • /imdb - 𝑓𝑒𝑡𝑐ℎ 𝑖𝑛𝑓𝑜 𝑓𝑟𝑜𝑚 𝑖𝑚𝑑𝑏.
 • /search - 𝑇𝑜 𝑠𝑒𝑎𝑟𝑐ℎ 𝑓𝑟𝑜𝑚 𝑣𝑎𝑟𝑖𝑜𝑢𝑠 𝑠𝑜𝑢𝑟𝑐𝑒𝑠
-• /start - 𝑇𝑜 𝑠𝑡𝑎𝑟𝑡 𝑡ℎ𝑒 𝑏𝑜𝑡
+• /star - 𝑇𝑜 𝑠𝑡𝑎𝑟𝑡 𝑡ℎ𝑒 𝑏𝑜𝑡
 • /setskip - 𝑇𝑜 𝑠𝑘𝑖𝑝 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑚𝑒𝑠𝑠𝑎𝑔𝑒𝑠 𝑤ℎ𝑒𝑛 𝑖𝑛𝑑𝑒𝑥𝑖𝑛𝑔 𝑓𝑖𝑙𝑒𝑠
 • /users - 𝑡𝑜 𝑔𝑒𝑡 𝑙𝑖𝑠𝑡 𝑜𝑓 𝑚𝑦 𝑢𝑠𝑒𝑟𝑠 𝑎𝑛𝑑 𝑖𝑑𝑠.
 • /chats - 𝑡𝑜 𝑔𝑒𝑡 𝑙𝑖𝑠𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑚𝑦 𝑐ℎ𝑎𝑡𝑠 𝑎𝑛𝑑 𝑖𝑑𝑠 
@@ -87,17 +87,17 @@
 ## Variables
 
 ### Required Variables
-* `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
-* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
-* `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
-* `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
+* `BOT_TOKEN`: 6748815396:AAEUR52C3Qc6JzNaYvOHxoXqm-3GzqKSxNM
+* `API_ID`: 29895250
+* `API_HASH`: 29ca1e2311efdf950eea03a6ae2bc8ee
+* `CHANNELS`: @dp_cinema_channel
+* `ADMINS`: 2017335429
+* `DATABASE_URI`: mongodb+srv://samir:<Meshram@>@atlascluster.zfmjvkg.mongodb.net/?retryWrites=true&w=majority
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
-* `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
+* `LOG_CHANNEL` : 1962672428
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
-* `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
+* `FILE_STORE_CHANNEL`: 1962672428
 * Check [info.py](https://github.com/Joelkb/DQ-The-File-Donor/blob/master/info.py) for more optional variables
 
 
